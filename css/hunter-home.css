@@ -212,3 +212,28 @@ code {
     height: auto;
     border:1px solid #021a40;
 }
+
+/* API doc */
+
+.api     {
+    padding-top: 250px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    color: #861001;
+}
+
+.comingsoon {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;    
+    padding-top: 0%;
+    padding-bottom: 5%;
+}
+
+#comingsoon {
+    font-size: 20px;
+    margin: 0;
+    padding: 2px 2px;
+    background: rgba(255, 255, 255, 0.6);
+}
