@@ -5,19 +5,6 @@
  */
 
 body,
-html {
-    background: url(../img/hunter-background.png) no-repeat center center;
-    background-size: cover;
-    background-attachment: fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    width: 100%;
-    height: 100%;
-}
-
-body,
 h1,
 h2,
 h3,
@@ -32,6 +19,8 @@ h6 {
     font-size: 18px;
     font-weight: 400;
 }
+
+/* Home */
 
 .intro-header {
     padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
@@ -57,6 +46,7 @@ h6 {
 #vp-text {
     font-size: 10px;
     margin: 0;
+    padding: 2px 2px;
     color: #861001;
     background: rgba(255, 255, 255, 0.6);
 }
@@ -84,110 +74,72 @@ h6 {
 	color: #861001;
 }
 
-@media(max-width:767px) {
-    .vp {
-        padding-bottom: 15%;
-    }
+/* Nav & footer */
 
-    .vp > h1 {
-        font-size: 3em;
-    }
-
-    ul.intro-social-buttons > li {
-        display: block;
-        margin-bottom: 20px;
-        padding: 0;
-    }
-
-    ul.intro-social-buttons > li:last-child {
-        margin-bottom: 0;
-    }
-
-    .intro-divider {
-        width: 100%;
-    }
+.navbar {
+  background: rgba(0, 0, 0, 0.1);
+  border: 0;
+  color: #fff;
 }
 
-.network-name {
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 400;
-    letter-spacing: 2px;
+.home-img {
+  position: fixed;
+  left: 5%;
 }
 
-.content-section-a {
-    padding: 50px 0;
-    background-color: #f8f8f8;
-}
-
-.content-section-b {
-    padding: 50px 0;
-    border-top: 1px solid #e7e7e7;
-    border-bottom: 1px solid #e7e7e7;
-}
-
-.section-heading {
-    margin-bottom: 30px;
-}
-
-.section-heading-spacer {
-    float: left;
-    width: 200px;
-    border-top: 3px solid #e7e7e7;
-}
-
-.banner {
-    padding: 100px 0;
-    color: #f8f8f8;
-    background: url(../img/banner-bg.jpg) no-repeat center center;
-    background-size: cover;
-}
-
-.banner h2 {
-    margin: 0;
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-    font-size: 3em;
-}
-
-.banner ul {
-    margin-bottom: 0;
-}
-
-.banner-social-buttons {
-    float: right;
-    margin-top: 0;
-}
-
-@media(max-width:1199px) {
-    ul.banner-social-buttons {
-        float: left;
-        margin-top: 15px;
-    }
-}
-
-@media(max-width:767px) {
-    .banner h2 {
-        margin: 0;
-        text-shadow: 2px 2px 3px rgba(0,0,0,0.6);
-        font-size: 3em;
-    }
-
-    ul.banner-social-buttons > li {
-        display: block;
-        margin-bottom: 20px;
-        padding: 0;
-    }
-
-    ul.banner-social-buttons > li:last-child {
-        margin-bottom: 0;
-    }
+.page {
+  color: #861001;
 }
 
 footer {
-    padding: 50px 0;
-    background-color: #f8f8f8;
+    position:fixed;
+    bottom:0;
+    left:0;
+    height: 25px;
+    width: 100%;
+    background-color: #000;
+    opacity: 0.6;
+    
 }
 
 p.copyright {
-    margin: 15px 0 0;
+  margin-left: 0;
+}
+
+/* About */
+
+.about {
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+}
+
+.ab {
+    position: relative;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;    
+    padding-top: 0%;
+    padding-bottom: 5%;
+}
+
+#about-text {
+    text-align: left;
+    text-align: justify;
+    padding: 3px 10px;
+    font-size: 20px;
+    margin: 0;
+    color: #861001;
+    background: rgba(255, 255, 255, 0.6);
+}
+
+/* Download */
+
+.download {
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
 }

@@ -2,7 +2,7 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://yoursite.com
+url: http://locahost:4000
 title: Hunter
 email: nicolas@rawdatahunter.com
 description: Hunter allows you to find and download open datasets quickly and easily from your terminal. We work hard to index and sort the most useful datasets available for you!
@@ -14,9 +14,9 @@ description: Hunter allows you to find and download open datasets quickly and ea
 # Build settings
 markdown: kramdown
 permalink: pretty
+relative_permalinks: true
 
 # ----------------------- #
-#   3rd Party Settings    #
+#      Collections        #
 # ----------------------- #
-
 
