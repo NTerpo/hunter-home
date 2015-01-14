@@ -30,8 +30,8 @@ h6 {
 }
 
 #logo {
-  max-width: 100%;
-  height: auto;
+    max-width: 100%;
+    height: auto;
 }
 
 .vp {
@@ -77,15 +77,15 @@ h6 {
 /* Nav & footer */
 
 .navbar {
-  height: 100px;
-  background: rgba(0, 0, 0, 0.1);
-  border: 0;
-  color: #fff;
+    height: 100px;
+    background: rgba(0, 0, 0, 0.1);
+    border: 0;
+    color: #fff;
 }
 
 .home-img {
-  position: fixed;
-  left: 5%;
+    position: fixed;
+    left: 5%;
 }
 
 .page {
@@ -157,6 +157,26 @@ p.copyright {
     color: #000;
     width: 50%;
     margin: 0 auto;
+}
+
+.dl {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;    
+    padding-top: 0%;
+    padding-bottom: 5%;
+}
+
+#dl-text {
+    font-size: 20px;
+    margin: 0;
+    padding: 2px 2px;
+    background: rgba(255, 255, 255, 0.6);
+}
+
+code {
+    color: #861001;
 }
 
 .pitch {
