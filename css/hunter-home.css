@@ -76,27 +76,26 @@ h6 {
 
 /* Nav & footer */
 
-.navbar {
+.navbar-default {
     height: 100px;
     background: rgba(0, 0, 0, 0.1);
     border: 0;
-    color: #fff;
 }
 
-.home-img {
-    position: fixed;
-    left: 5%;
-}
-
-.page {
+.navbar-default .navbar-nav > li > a {
     font-size: 20px;
     color: #861001;
 }
 
-.navbar-nav li a {
-    line-height: 150px;
-    height: 100px;
-    padding-top: 0;
+
+.navbar-right {
+    padding-top: 60px;
+}
+
+.home-img {
+    max-width: 70%;
+    position: fixed;
+    left: 5%;
 }
 
 footer {
@@ -177,7 +176,8 @@ p.copyright {
 
 code {
     color: #861001;
-    font-size: 30px;
+    /*font-size: 30px;*/
+    font-size: 95%;
 }
 
 .pitch {
