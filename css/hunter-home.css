@@ -23,7 +23,7 @@ h6 {
 /* Home */
 
 .intro-header {
-    padding-top: 100px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-top: 100px; 
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
@@ -116,7 +116,7 @@ p.copyright {
 /* About */
 
 .about {
-    padding-top: 100px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-top: 100px; 
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
@@ -145,7 +145,7 @@ p.copyright {
 /* Download */
 
 .download {
-    padding-top: 110px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-top: 110px; 
     padding-bottom: 50px;
     text-align: center;
     color: #f8f8f8;
@@ -176,7 +176,6 @@ p.copyright {
 
 code {
     color: #861001;
-    /*font-size: 30px;*/
     font-size: 95%;
 }
 
@@ -217,7 +216,7 @@ code {
 /* API doc */
 
 .api     {
-    padding-top: 250px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-top: 250px;
     padding-bottom: 50px;
     text-align: center;
     color: #861001;
