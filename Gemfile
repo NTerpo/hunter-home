@@ -1,4 +1,8 @@
 source 'https://rubygems.org'
-# gem 'github-pages' for now this doesn't support Jekyll 2
-gem 'jekyll', '2.5.3'
+
+require 'json'
+require 'open-uri'
+versions = JSON.parse(open('https://pages.github.com/versions.json').read)
+
 gem 'rouge'
+gem 'github-pages', versions['github-pages']
