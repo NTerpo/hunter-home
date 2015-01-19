@@ -1,6 +1,6 @@
 body,
 html {
-    background: url(../img/about-background.png) no-repeat center center;
+    background: url({{ site.baseurl }}/img/about-background.png) no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
     -webkit-background-size: cover;

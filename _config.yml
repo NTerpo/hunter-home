@@ -2,7 +2,7 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://locahost:4000
+baseurl: /hunter-home
 title: Hunter
 email: nicolas@rawdatahunter.com
 description: Hunter allows you to find and download open datasets quickly and easily from your terminal. We work hard to index and sort the most useful datasets available for you!
