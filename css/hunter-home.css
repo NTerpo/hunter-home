@@ -186,6 +186,34 @@ p.copyright {
     margin: 0 auto;
 }
 
+.email {
+    position: relative;
+    font: 14px Helvetica,Arial,sans-serif;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 20px;
+    display: inline-block;
+    width: 90%;
+}
+.button {
+	margin: 10px auto;
+    text-align: center;
+	padding: 12px 24px 8px 24px;
+	background: #861001;
+	color: #fff;
+	display: inline-block;
+	font-size: 20px;
+	line-height:20px;
+    border: 0;
+}
+
+.button:hover{
+	text-decoration: none;
+	background: #ffffff;
+	color: #861001;
+}
+
 .dl {
     position: relative;
     margin-left: auto;
