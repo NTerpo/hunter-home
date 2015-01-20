@@ -207,7 +207,7 @@ p.copyright {
     padding: 2px 2px;
 }
 
-code {
+#dl-text > code {
     color: #fff;
     background-color: #861001;
     font-size: 95%;
