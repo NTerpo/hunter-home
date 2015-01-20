@@ -82,51 +82,23 @@ body {
 
 /* Navbar */
 
-.navbar-default {
-    position:absolute;
-    top:0;
-    left:0;
-    height: 100px;
-    background: rgba(255, 255, 255, 1);
-    border: 0;
+.home-img {
+    max-height: 50px;
+    position: fixed;
+    left: 5%;
 }
 
-.navbar-default .navbar-toggle {
-    padding-top: 60px;
+.navbar-default .navbar-nav > li > a {
+    font-size: 20px;
+    color: #861001;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #861001;
 }
 
-.navbar-default .navbar-nav > li > a {
-    font-size: 20px;
-    color: #861001;    
-}
-
 @media only screen and (max-width: 766px) {
-.collapsing, .in {background-color: #861001;}
 .collapsing ul li a, .in ul li a {text-align: center;}
-.collapsing ul li a, .in ul li a {padding-bottom: 60px;}
-.collapsing ul li a, .in ul li a {color: #fff!important;}
-.collapsing ul li a:hover, .in ul li a:hover {color: #000!important;}
-}
-
-.navbar-default .navbar-nav > li > a:focus,
-.navbar-default .navbar-nav > li > a:hover {
-    font-size: 20px;
-    color: #002452;
-}
-
-.navbar-right {
-    padding-top: 60px;
-}
-
-.home-img {
-    max-height: 100px;
-    max-width: 70%;
-    position: fixed;
-    left: 5%;
 }
 
 /* Footer */
@@ -158,7 +130,7 @@ p.copyright {
 /* About */
 
 .about {
-    padding-top: 130px;
+    padding-top: 80px;
     padding-bottom: 50px;
     text-align: center;
     color: #fff;
@@ -173,7 +145,6 @@ p.copyright {
     font-size: 20px;
     margin: 0;
     color: #861001;
-    /*background-color: #861001;*/
 }
 
 
@@ -190,7 +161,6 @@ p.copyright {
 
 .value-proposition h1 {
     font-size: 40px;
-    /*color: #861001;*/
     color: #fff;
 }
 
@@ -303,7 +273,7 @@ code {
 /* API doc */
 
 .api     {
-    padding-top: 250px;
+    padding-top: 200px;
     padding-bottom: 50px;
     text-align: center;
     color: #861001;
