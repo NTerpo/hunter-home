@@ -11,24 +11,19 @@ h6 {
 
 html,
 body {
-   margin:0;
-   padding:0;
-   height:100%;
+    margin:0;
+    padding:0;
+    width: 100%;
+    height: 100%;
 }
 #wrapper {
-   min-height:100%;
-   position:relative;
+    min-height:100%;
+    position:relative;
 }
 
 .lead {
     font-size: 18px;
     font-weight: 400;
-}
-
-.intro-divider {
-    width: 400px;
-    border-top: 1px solid #f8f8f8;
-    border-bottom: 1px solid rgba(0,0,0,0.2);
 }
 
 /* Home */
@@ -182,7 +177,49 @@ p.copyright {
 
 /* Download */
 
-.subscribe {
+.value-proposition {
+    padding-top: 110px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #fff;
+    background: url(../img/hunter-background.png) no-repeat center center;
+    background-size: cover;
+}
+
+.value-proposition h1 {
+    font-size: 90px;
+    color: #861001;
+    max-width: 100%;
+}
+
+.intro-divider {
+    max-width: 100%;
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.dl {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    padding-top: 0%;
+    padding-bottom: 5%;
+}
+
+#dl-text {
+    font-size: 20px;
+    margin: 0;
+    padding: 2px 2px;
+}
+
+code {
+    color: #861001;
+    font-size: 95%;
+}
+
+/*.subscribe {
     background-color: #861001;
     background-size: cover;
     background-attachment: fixed;
@@ -194,21 +231,7 @@ p.copyright {
     height: 100%;
 }
 
-.download {
-    padding-top: 110px; 
-    padding-bottom: 50px;
-    text-align: center;
-    color: #f8f8f8;
-}
 
-/*.hunter-demo {
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;
-    padding-top: 5%;
-    padding-bottom: 5%;
-}*/
 
 .mailchimp {
     background: rgba(255, 255, 255, 0.6);;
@@ -228,49 +251,32 @@ p.copyright {
     width: 90%;
 }
 .button {
-	margin: 10px auto;
+    margin: 10px auto;
     text-align: center;
-	padding: 12px 24px 8px 24px;
-	background: #861001;
-	color: #fff;
-	display: inline-block;
-	font-size: 20px;
-	line-height:20px;
+    padding: 12px 24px 8px 24px;
+    background: #861001;
+    color: #fff;
+    display: inline-block;
+    font-size: 20px;
+    line-height:20px;
     border: 0;
 }
 
 .button:hover{
-	text-decoration: none;
-	background: #ffffff;
-	color: #861001;
-}
-
-.dl {
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;    
-    padding-top: 0%;
-    padding-bottom: 5%;
-}
-
-#dl-text {
-    font-size: 20px;
-    margin: 0;
-    padding: 2px 2px;
-    /*background: rgba(255, 255, 255, 0.6);*/
-}
-
-code {
+    text-decoration: none;
+    background: #ffffff;
     color: #861001;
-    font-size: 95%;
 }
+
+
+
+
 
 .pitch {
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    width: 70%;    
+    width: 70%;
     padding-top: 0%;
     padding-bottom: 5%;
 }
@@ -278,8 +284,8 @@ code {
 #pitch-text {
     font-size: 20px;
     text-align: center;
-/*    text-align: justify;
-*/    margin: 0;
+    text-align: justify;
+    margin: 0;
     padding: 2px 2px;
     color: #861001;
     background: rgba(255, 255, 255, 1);
@@ -298,7 +304,7 @@ code {
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    width: 55%;    
+    width: 55%;
     padding-top: 0%;
     padding-bottom: 5%;
 }
@@ -307,7 +313,7 @@ code {
     max-width: 100%;
     height: auto;
     border:1px solid #021a40;
-}
+}*/
 
 /* API doc */
 
