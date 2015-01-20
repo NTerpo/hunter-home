@@ -152,6 +152,11 @@ p.copyright {
     color: #861001;
 }
 
+.white-box {
+    height: 10px;
+    background-color: #fff;
+}
+
 /* Download */
 
 .download {
