@@ -135,15 +135,24 @@ footer {
     position:absolute;
     bottom:0;
     left:0;
-    height: 25px;
+    padding-top: 10px;
+    height: 75px;
     width: 100%;
-    background: rgba(255, 255, 255, 1);    
+    background-color: #f8f8f8;   
+    color: #861001;
+}
+
+.list-inline > li > a {
+    color: #861001;
+}
+
+.list-unstyled > li >a {
+    color: #002452;
 }
 
 p.copyright {
     color: #861001;
-    position: absolute;    
-    right: 5%;
+    text-align: center;
 }
 
 /* About */
@@ -233,7 +242,7 @@ code {
 
 .mailing {
     padding-top: 25px;
-    padding-bottom: 50px;
+    padding-bottom: 75px;
     text-align: center;
     color: #fff;
     background: url(../img/mailing-background.png) no-repeat center center;
