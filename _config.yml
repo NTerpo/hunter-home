@@ -15,3 +15,5 @@ description: Hunter allows you to find and download open datasets quickly and ea
 markdown: kramdown
 permalink: pretty
 relative_permalinks: true
+gems:
+  - jekyll-sitemap
