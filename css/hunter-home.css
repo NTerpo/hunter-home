@@ -159,9 +159,9 @@ p.copyright {
     padding-bottom: 50px;
     text-align: center;
     color: #fff;
-    background-color: #861001;
+    /*background-color: #861001;*/
     /*background: url(../img/alt-hunter-background.png) no-repeat center center;*/
-    background-size: cover;
+    /*background-size: cover;*/
 }
 
 /* Home */
@@ -203,11 +203,13 @@ p.copyright {
 }
 
 code {
-    color: #861001;
+    color: #fff;
+    background-color: #861001;
     font-size: 95%;
 }
 
 .dl > p > small {
+    color: #861001;
 	display: block;
 	font-size: 15px;
 	line-height: 24px;
