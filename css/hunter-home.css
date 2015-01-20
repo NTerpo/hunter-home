@@ -158,30 +158,22 @@ p.copyright {
 /* About */
 
 .about {
-    padding-top: 100px; 
+    padding-top: 130px;
     padding-bottom: 50px;
     text-align: center;
     color: #fff;
+    background: url(../img/about-background.png) no-repeat center center;
+    background-size: cover;
 }
 
 .ab {
-    position: relative;
-    margin-top: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;    
-    padding-top: 0%;
-    padding-bottom: 5%;
-}
-
-#about-text {
     text-align: left;
     text-align: justify;
     padding: 3px 10px;
     font-size: 20px;
     margin: 0;
-    color: #fff;
-    background-color: #861001;
+    color: #861001;
+    /*background-color: #861001;*/
 }
 
 
@@ -192,13 +184,14 @@ p.copyright {
     padding-bottom: 50px;
     text-align: center;
     color: #fff;
-    background: url(../img/hunter-background.png) no-repeat center center;
+    background: url(../img/alt-hunter-background.png) no-repeat center center;
     background-size: cover;
 }
 
 .value-proposition h1 {
-    font-size: 45px;
-    color: #861001;
+    font-size: 40px;
+    /*color: #861001;*/
+    color: #fff;
 }
 
 .intro-divider {
