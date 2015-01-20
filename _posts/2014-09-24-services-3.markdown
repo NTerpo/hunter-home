@@ -2,7 +2,7 @@
 layout: default
 img: about-demo.png
 category: Services
-title: Much more comming soon!
+title: Much more coming soon!
 description: |
-  <p class="lead">More datasets, data download improved<, more generic functions available to use in your project, API references if you don't want to use you terminal etc...</il></ul></p>
+  <p class="lead">More datasets, data download improved, more generic functions available to use in your project, API references if you don't want to use your terminal etc...</il></ul></p>
 ---
