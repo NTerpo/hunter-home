@@ -1,12 +1,11 @@
 ---
 layout: default
-img: phones.png
+img: get-demo.png
 category: Services
-title: Google Web Fonts and<br>Font Awesome Icons
+title: Download the data directly from your terminal
 description: |
-  <p class="lead">This template features the 'Lato' font,
-  part of the <a target="_blank" href="http://www.google.com/fonts">Google
-  Web Font library</a>, as well as <a target="_blank"
-  href="http://fontawesome.io">icons from Font Awesome</a>.</p>
+  <p class="lead"><a target="_blank"
+  href="https://github.com/NTerpo/datahunter#-hunter-find"><code>$ hunter find</code></a> and <a target="_blank"
+  href="https://github.com/NTerpo/datahunter#-hunter-get"><code>$ hunter get</code></a> allows you, when possible, to download the data directly. If it's not possible, it just opens your favorite browser to the webpage where you'll be able to download the data.</p>
 
 ---

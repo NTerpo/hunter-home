@@ -1,13 +1,10 @@
 ---
 layout: default
-img: dog.png
+img: search-demo.png
 category: Services
-title: 3D Device Mockups<br>by PSDCovers
+title: Search among the most populars datasets
 description: |
-  <p class="lead">Turn your 2D designs into high quality, 3D
-  product shots in seconds using free Photoshop actions by <a
-  target="_blank" href="http://www.psdcovers.com/">PSDCovers</a>! Visit
-  their website to download some of their awesome, free photoshop
-  actions!</p>
+  <p class="lead">The <a target="_blank"
+  href="https://github.com/NTerpo/datahunter#-hunter-search"><code>$ hunter search</code></a> command gives you all the datasets corresponding to a keyword, ranked by popularity (number of re-utilisations, download count etc)</p>
 
 ---

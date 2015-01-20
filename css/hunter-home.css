@@ -11,13 +11,14 @@ h6 {
 
 html,
 body {
-   margin:0;
-   padding:0;
-   height:100%;
+    margin:0;
+    padding:0;
+    width: 100%;
+    height: 100%;
 }
 #wrapper {
-   min-height:100%;
-   position:relative;
+    min-height:100%;
+    position:relative;
 }
 
 .lead {
@@ -25,39 +26,40 @@ body {
     font-weight: 400;
 }
 
-/* Home */
+/* First */
 
-.intro-header {
-    padding-top: 100px; 
-    padding-bottom: 50px;
+/*.intro-header {
+    padding-top: 80px;
+    padding-bottom: 80px;
     text-align: center;
-    color: #f8f8f8;
+    color: #fff;
+    background-color: #002452;
+    background: url(../img/alt-hunter-background.png) no-repeat center center;
+    background-size: cover;
 }
-
-#logo {
+*/
+/*#logo {
     max-width: 100%;
     height: auto;
 }
-
-.vp {
+*/
+/*.vp {
     position: relative;
     margin-left: auto;
     margin-right: auto;
-    width: 55%;    
-    padding-top: 0%;
+    max-width: 100%;
+    padding-top: 5%;
     padding-bottom: 5%;
-}
+}*/
 
-#vp-text {
+/*#vp-text {
     font-size: 10px;
-    margin: 0;
     padding: 2px 2px;
-    color: #861001;
-    background: rgba(255, 255, 255, 0.6);
-}
+    color: #fff;
+}*/
 
 #cta-1 {
-	margin: 24px auto;
+	/*margin-bottom: 24px;*/
 	text-align:center;
 	padding:12px 24px 8px 24px;
 	background: #861001;
@@ -75,54 +77,33 @@ body {
 
 #cta-1:hover{
 	text-decoration: none;
-	background: #ffffff;
+	background: #fff;
 	color: #861001;
 }
 
 /* Navbar */
 
-.navbar-default {
-    height: 100px;
-    background: rgba(0, 0, 0, 0.4);
-    border: 0;
+.home-img {
+    max-height: 50px;
+    position: fixed;
+    left: 5%;
 }
 
-.navbar-default .navbar-toggle {
-    padding-top: 60px;
+.navbar-default {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-nav > li > a {
+    font-size: 20px;
+    color: #861001;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
   background-color: #861001;
 }
 
-.navbar-default .navbar-nav > li > a {
-    font-size: 20px;
-    color: #861001;    
-}
-
 @media only screen and (max-width: 766px) {
-.collapsing, .in {background-color: #861001;}
 .collapsing ul li a, .in ul li a {text-align: center;}
-.collapsing ul li a, .in ul li a {padding-bottom: 60px;}
-.collapsing ul li a, .in ul li a {color: #fff!important;}
-.collapsing ul li a:hover, .in ul li a:hover {color: #000!important;}
-}
-
-.navbar-default .navbar-nav > li > a:focus,
-.navbar-default .navbar-nav > li > a:hover {
-    font-size: 20px;
-    color: #fff;
-}
-
-.navbar-right {
-    padding-top: 60px;
-}
-
-.home-img {
-    max-height: 100px;
-    max-width: 70%;
-    position: fixed;
-    left: 5%;
 }
 
 /* Footer */
@@ -131,57 +112,130 @@ footer {
     position:absolute;
     bottom:0;
     left:0;
-    height: 25px;
+    padding-top: 10px;
+    height: 75px;
     width: 100%;
-    background: rgba(0, 0, 0, 0.6);    
+    background-color: #fff;   
+    color: #861001;
+}
+
+.list-inline > li > a {
+    color: #861001;
+}
+
+.list-unstyled > li >a {
+    color: #002452;
 }
 
 p.copyright {
     color: #861001;
-    position: absolute;    
-    right: 5%;
+    text-align: center;
 }
 
 /* About */
 
 .about {
-    padding-top: 100px; 
+    padding-top: 80px;
     padding-bottom: 50px;
     text-align: center;
-    color: #f8f8f8;
+    color: #fff;
+    background: url(../img/about-background.png) no-repeat center center;
+    background-size: cover;
 }
 
 .ab {
-    position: relative;
-    margin-top: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 100%;    
-    padding-top: 0%;
-    padding-bottom: 5%;
-}
-
-#about-text {
     text-align: left;
     text-align: justify;
     padding: 3px 10px;
     font-size: 20px;
     margin: 0;
     color: #861001;
-    background: rgba(255, 255, 255, 0.6);
+}
+
+.white-box {
+    height: 15px;
+    background-color: #fff;
 }
 
 /* Download */
 
 .download {
-    padding-top: 110px; 
+    padding-top: 150px;
     padding-bottom: 50px;
     text-align: center;
-    color: #f8f8f8;
+    color: #fff;
+    /*background-color: #861001;*/
+    /*background: url(../img/alt-hunter-background.png) no-repeat center center;*/
+    /*background-size: cover;*/
+}
+
+/* Home */
+
+.value-proposition {
+    padding-top: 110px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #fff;
+    background: url(../img/alt-hunter-background.png) no-repeat center center;
+    background-size: cover;
+}
+
+.value-proposition h1 {
+    font-size: 40px;
+    color: #fff;
+}
+
+.intro-divider {
+    max-width: 100%;
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+.dl {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    padding-top: 0%;
+    padding-bottom: 5%;
+}
+
+#dl-text {
+    font-size: 30px;
+    margin: 0;
+    padding: 2px 2px;
+}
+
+#dl-text > code {
+    color: #fff;
+    background-color: #861001;
+    font-size: 95%;
+}
+
+.dl > p > small {
+    color: #861001;
+	display: block;
+	font-size: 15px;
+	line-height: 24px;
+}
+
+.dl > p > small > a {
+    color: #002452;
+}
+
+/* Mailing */
+
+.mailing {
+    padding-top: 25px;
+    padding-bottom: 75px;
+    text-align: center;
+    color: #fff;
+    background: url(../img/mailing-background.png) no-repeat center center;
+    background-size: cover;
 }
 
 .mailchimp {
-    background: rgba(255, 255, 255, 0.6);;
     color: #000;
     width: 50%;
     margin: 0 auto;
@@ -198,82 +252,51 @@ p.copyright {
     width: 90%;
 }
 .button {
-	margin: 10px auto;
+    margin: 10px auto;
     text-align: center;
-	padding: 12px 24px 8px 24px;
-	background: #861001;
-	color: #fff;
-	display: inline-block;
-	font-size: 20px;
-	line-height:20px;
+    padding: 12px 24px 8px 24px;
+    background: #861001;
+    color: #fff;
+    display: inline-block;
+    font-size: 20px;
+    line-height:20px;
     border: 0;
 }
 
 .button:hover{
-	text-decoration: none;
-	background: #ffffff;
-	color: #861001;
-}
-
-.dl {
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    width: 40%;    
-    padding-top: 0%;
-    padding-bottom: 5%;
-}
-
-#dl-text {
-    font-size: 20px;
-    margin: 0;
-    padding: 2px 2px;
-    background: rgba(255, 255, 255, 0.6);
-}
-
-code {
+    text-decoration: none;
+    background: #ffffff;
     color: #861001;
-    font-size: 95%;
 }
 
-.pitch {
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    width: 70%;    
-    padding-top: 0%;
-    padding-bottom: 5%;
+/* Content */
+
+.content-section-a {
+    padding: 50px 0;
+    background-color: #f8f8f8;
 }
 
-#pitch-text {
-    font-size: 20px;
-    text-align: left;
-    text-align: justify;
-    margin: 0;
-    padding: 2px 2px;
+.content-section-b {
+    padding: 50px 0;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.section-heading {
+    margin-bottom: 30px;
     color: #861001;
-    background: rgba(255, 255, 255, 0.6);
 }
 
-.hunter-demo {
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    width: 55%;    
-    padding-top: 0%;
-    padding-bottom: 5%;
-}
-
-#hunter-demo {
-    max-width: 100%;
-    height: auto;
-    border:1px solid #021a40;
+.section-heading-spacer {
+    float: left;
+    width: 200px;
+    border-top: 3px solid #e7e7e7;
 }
 
 /* API doc */
 
 .api     {
-    padding-top: 250px;
+    padding-top: 200px;
     padding-bottom: 50px;
     text-align: center;
     color: #861001;
