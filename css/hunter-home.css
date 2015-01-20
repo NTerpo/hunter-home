@@ -1,3 +1,7 @@
+/***********/
+/* General */
+/***********/
+
 body,
 h1,
 h2,
@@ -26,62 +30,9 @@ body {
     font-weight: 400;
 }
 
-/* First */
-
-/*.intro-header {
-    padding-top: 80px;
-    padding-bottom: 80px;
-    text-align: center;
-    color: #fff;
-    background-color: #002452;
-    background: url(../img/alt-hunter-background.png) no-repeat center center;
-    background-size: cover;
-}
-*/
-/*#logo {
-    max-width: 100%;
-    height: auto;
-}
-*/
-/*.vp {
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 100%;
-    padding-top: 5%;
-    padding-bottom: 5%;
-}*/
-
-/*#vp-text {
-    font-size: 10px;
-    padding: 2px 2px;
-    color: #fff;
-}*/
-
-#cta-1 {
-	/*margin-bottom: 24px;*/
-	text-align:center;
-	padding:12px 24px 8px 24px;
-	background: #861001;
-	color: #fff;
-	display: inline-block;
-	font-size: 24px;
-	line-height:24px;
-
-	small {
-		display: block;
-		font-size: 8px;
-		line-height: 24px;
-	}
-}
-
-#cta-1:hover{
-	text-decoration: none;
-	background: #fff;
-	color: #861001;
-}
-
+/**********/
 /* Navbar */
+/**********/
 
 .home-img {
     max-height: 50px;
@@ -106,7 +57,9 @@ body {
 .collapsing ul li a, .in ul li a {text-align: center;}
 }
 
+/**********/
 /* Footer */
+/**********/
 
 footer {
     position:absolute;
@@ -132,44 +85,9 @@ p.copyright {
     text-align: center;
 }
 
-/* About */
-
-.about {
-    padding-top: 80px;
-    padding-bottom: 50px;
-    text-align: center;
-    color: #fff;
-    background: url(../img/about-background.png) no-repeat center center;
-    background-size: cover;
-}
-
-.ab {
-    text-align: left;
-    text-align: justify;
-    padding: 3px 10px;
-    font-size: 20px;
-    margin: 0;
-    color: #861001;
-}
-
-.white-box {
-    height: 15px;
-    background-color: #fff;
-}
-
-/* Download */
-
-.download {
-    padding-top: 150px;
-    padding-bottom: 50px;
-    text-align: center;
-    color: #fff;
-    /*background-color: #861001;*/
-    /*background: url(../img/alt-hunter-background.png) no-repeat center center;*/
-    /*background-size: cover;*/
-}
-
+/********/
 /* Home */
+/********/
 
 .value-proposition {
     padding-top: 110px;
@@ -190,6 +108,65 @@ p.copyright {
     width: 400px;
     border-top: 1px solid #f8f8f8;
     border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+#cta-1 {
+	text-align:center;
+	padding:12px 24px 8px 24px;
+	background: #861001;
+	color: #fff;
+	display: inline-block;
+	font-size: 24px;
+	line-height:24px;
+
+	small {
+		display: block;
+		font-size: 8px;
+		line-height: 24px;
+	}
+}
+
+#cta-1:hover{
+	text-decoration: none;
+	background: #fff;
+	color: #861001;
+}
+
+/***********/
+/* Content */
+/***********/
+
+.content-section-a {
+    padding: 50px 0;
+    background-color: #f8f8f8;
+}
+
+.content-section-b {
+    padding: 50px 0;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.section-heading {
+    margin-bottom: 30px;
+    color: #861001;
+}
+
+.section-heading-spacer {
+    float: left;
+    width: 200px;
+    border-top: 3px solid #e7e7e7;
+}
+
+/************/
+/* Download */
+/************/
+
+.download {
+    padding-top: 150px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #fff;
 }
 
 .dl {
@@ -224,7 +201,63 @@ p.copyright {
     color: #002452;
 }
 
+/*********/
+/* About */
+/*********/
+
+.about {
+    padding-top: 80px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #fff;
+    background: url(../img/about-background.png) no-repeat center center;
+    background-size: cover;
+}
+
+.ab {
+    text-align: left;
+    text-align: justify;
+    padding: 3px 10px;
+    font-size: 20px;
+    margin: 0;
+    color: #861001;
+}
+
+.white-box {
+    height: 15px;
+    background-color: #fff;
+}
+
+/***********/
+/* API doc */
+/***********/
+
+.api {
+    padding-top: 200px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #861001;
+}
+
+.comingsoon {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;    
+    padding-top: 0%;
+    padding-bottom: 5%;
+}
+
+#comingsoon {
+    font-size: 20px;
+    margin: 0;
+    padding: 2px 2px;
+    background: rgba(255, 255, 255, 0.6);
+}
+
+/***********/
 /* Mailing */
+/***********/
 
 .mailing {
     padding-top: 25px;
@@ -251,6 +284,7 @@ p.copyright {
     display: inline-block;
     width: 90%;
 }
+
 .button {
     margin: 10px auto;
     text-align: center;
@@ -267,53 +301,4 @@ p.copyright {
     text-decoration: none;
     background: #ffffff;
     color: #861001;
-}
-
-/* Content */
-
-.content-section-a {
-    padding: 50px 0;
-    background-color: #f8f8f8;
-}
-
-.content-section-b {
-    padding: 50px 0;
-    border-top: 1px solid #e7e7e7;
-    border-bottom: 1px solid #e7e7e7;
-}
-
-.section-heading {
-    margin-bottom: 30px;
-    color: #861001;
-}
-
-.section-heading-spacer {
-    float: left;
-    width: 200px;
-    border-top: 3px solid #e7e7e7;
-}
-
-/* API doc */
-
-.api     {
-    padding-top: 200px;
-    padding-bottom: 50px;
-    text-align: center;
-    color: #861001;
-}
-
-.comingsoon {
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    width: 30%;    
-    padding-top: 0%;
-    padding-bottom: 5%;
-}
-
-#comingsoon {
-    font-size: 20px;
-    margin: 0;
-    padding: 2px 2px;
-    background: rgba(255, 255, 255, 0.6);
 }

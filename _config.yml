@@ -3,7 +3,7 @@
 # ----------------------- #
 
 baseurl: http://get-hunter.com
-title: Hunter - find/download data
+title: "Hunter: find & dl OpenData"
 email: nicolas@rawdatahunter.com
 description: Hunter allows you to find and download open datasets quickly and easily from your terminal. We work hard to index and sort the most useful datasets available for you!
 
@@ -15,8 +15,3 @@ description: Hunter allows you to find and download open datasets quickly and ea
 markdown: kramdown
 permalink: pretty
 relative_permalinks: true
-
-# ----------------------- #
-#      Collections        #
-# ----------------------- #
-
