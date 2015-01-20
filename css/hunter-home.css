@@ -26,7 +26,7 @@ body {
     font-weight: 400;
 }
 
-/* Home */
+/* First */
 
 .intro-header {
     padding-top: 100px; 
@@ -175,31 +175,8 @@ p.copyright {
     background-color: #861001;
 }
 
-/* Content */
 
-.content-section-a {
-    padding: 50px 0;
-    background-color: #f8f8f8;
-}
-
-.content-section-b {
-    padding: 50px 0;
-    border-top: 1px solid #e7e7e7;
-    border-bottom: 1px solid #e7e7e7;
-}
-
-.section-heading {
-    margin-bottom: 30px;
-    color: #861001;
-}
-
-.section-heading-spacer {
-    float: left;
-    width: 200px;
-    border-top: 3px solid #e7e7e7;
-}
-
-/* Download */
+/* Home */
 
 .value-proposition {
     padding-top: 110px;
@@ -252,22 +229,18 @@ code {
     color: #002452;
 }
 
-/*.subscribe {
-    background-color: #861001;
+/* Mailing */
+
+.mailing {
+    padding-top: 25px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #fff;
+    background: url(../img/mailing-background.png) no-repeat center center;
     background-size: cover;
-    background-attachment: fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    width: 100%;
-    height: 100%;
 }
 
-
-
 .mailchimp {
-    background: rgba(255, 255, 255, 0.6);;
     color: #000;
     width: 50%;
     margin: 0 auto;
@@ -301,52 +274,29 @@ code {
     color: #861001;
 }
 
+/* Content */
 
-
-
-
-.pitch {
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    width: 70%;
-    padding-top: 0%;
-    padding-bottom: 5%;
+.content-section-a {
+    padding: 50px 0;
+    background-color: #f8f8f8;
 }
 
-#pitch-text {
-    font-size: 20px;
-    text-align: center;
-    text-align: justify;
-    margin: 0;
-    padding: 2px 2px;
+.content-section-b {
+    padding: 50px 0;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.section-heading {
+    margin-bottom: 30px;
     color: #861001;
-    background: rgba(255, 255, 255, 1);
 }
 
-#subscribe-pitch-text {
-    font-size: 20px;
-    text-align: center;
-    text-align: justify;
-    margin: 0;
-    padding: 2px 2px;
-    color: #fff;
+.section-heading-spacer {
+    float: left;
+    width: 200px;
+    border-top: 3px solid #e7e7e7;
 }
-
-.hunter-demo {
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    width: 55%;
-    padding-top: 0%;
-    padding-bottom: 5%;
-}
-
-#hunter-demo {
-    max-width: 100%;
-    height: auto;
-    border:1px solid #021a40;
-}*/
 
 /* API doc */
 
