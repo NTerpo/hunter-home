@@ -94,7 +94,7 @@ p.copyright {
     padding-bottom: 50px;
     text-align: center;
     color: #fff;
-    background: url(../img/alt-hunter-background.png) no-repeat center center;
+    background: url(../img/alt-hunter-background.jpg) no-repeat center center;
     background-size: cover;
 }
 
@@ -210,7 +210,7 @@ p.copyright {
     padding-bottom: 50px;
     text-align: center;
     color: #fff;
-    background: url(../img/about-background.png) no-repeat center center;
+    background: url(../img/about-background.jpg) no-repeat center center;
     background-size: cover;
 }
 
@@ -264,7 +264,7 @@ p.copyright {
     padding-bottom: 75px;
     text-align: center;
     color: #fff;
-    background: url(../img/mailing-background.png) no-repeat center center;
+    background: url(../img/mailing-background.jpg) no-repeat center center;
     background-size: cover;
 }
 
@@ -311,7 +311,7 @@ p.copyright {
     padding-top: 150px;
     padding-bottom: 50px;
     text-align: center;
-    background: url(../img/not-found-background.png) no-repeat center;
+    background: url(../img/not-found-background.jpg) no-repeat center;
     background-size: cover;
 }
 
