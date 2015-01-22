@@ -274,6 +274,17 @@ p.copyright {
     margin: 0 auto;
 }
 
+.name {
+    position: relative;
+    font: 14px Helvetica,Arial,sans-serif;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 20px;
+    display: inline-block;
+    width: 50%;
+}
+
 .email {
     position: relative;
     font: 14px Helvetica,Arial,sans-serif;
@@ -283,6 +294,10 @@ p.copyright {
     padding: 10px 20px;
     display: inline-block;
     width: 90%;
+}
+
+.response {
+    color: #fff;
 }
 
 .button {
