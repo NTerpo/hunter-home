@@ -1,0 +1,67 @@
+==================================================================
+https://keybase.io/terpo
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://get-hunter.com
+  * I am terpo (https://keybase.io/terpo) on keybase.
+  * I have a public key with fingerprint 8815 4DFE 4B39 31D2 8701  2A5B 73E1 F0BE 82D6 5F1D
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "88154dfe4b3931d287012a5b73e1f0be82d65f1d",
+            "host": "keybase.io",
+            "key_id": "73e1f0be82d65f1d",
+            "kid": "010151c2f3382665fe268f8a36e681192a71c6aec354340eefd8d7dd80db6ea1fbd30a",
+            "uid": "51c3a810601b5065561e2e59affb7819",
+            "username": "terpo"
+        },
+        "service": {
+            "hostname": "get-hunter.com",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1437637678,
+    "expire_in": 157680000,
+    "prev": "aa90925a98b789c2731e31d608b75e57cedff106f5a634676515f788f3745094",
+    "seqno": 5,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v2.0.20
+Comment: https://keybase.io/crypto
+
+yMIbAnicbVJtSBRBGD5TU0+ToMI0kNofaWGys7szO3tlZSQWmUJ5BiVd+zF7bnq3
+19363SVaRFGJGEmhoCAUSmJiYoiUhpRiJBXRF2kGchGY/epH0Mes2L+GgeF93+d5
+5n1m3ok10Q5nVE+jE78YSlyKmh7fU+lw3+vIrmcUU6tlXPVMOVk+dMPvJcFA0PBb
+jIvBGEBB04mg8BIPNA6LLOBkqIg8ATqrEMxpCOpAY7KYMjNkM6iMIodItmHSHA08
+hkaz/8GXLxdYwAIIVE7necwhWiMcwjqWeUQQBkDiZBGoSCYqDwVeYAnRNayJmoZZ
+TUFEBrqi8axM5SqX5agUL2PAIhYokEUQIkA4AiVZ1xURA8kGhkjQL/sIRVvUqMmE
+sxiaqjJUYvu3bayUvcTaUVbpp6hs1fRRaiBoWqZqVtBamWUFXDbVqg3Y2GqieFZU
+PIrh1+grUkIVCYYM08+4AEWqlmHLAoEXEd0izmJITcAIEo9hI6CIMEuXfQ2popKy
+LLESB2UJ09YllRN5QOgfIJbGkEBRJZquU6s6lBEvIBFBAHURY50XBchKAmP7OuM3
+GRekbcpeKhkyvH7ZqgwSJvx4rDTGEeV0rI5dZc+Bw5mw9t90fKqP+3N6INHd9ep5
+53Grt7bh2cyFhIPN+6aWZgrvT37IzPg5Up3W8H1gNIk7Em4qco5/zIi5drWlZoMG
+x9Lv5B3qSW7fOTjuPtzSbRWLqTk5eXzEzXbHvVzX6ElqWGieuMV9jf/BeJ/MV/iE
+c9FxrvmUorjrlybbSkbeX2x92Li+Q7g5Vb6YP13LDLV8DvT2j76eiswZJVq4uLNp
+tjALbRztb40UPd1fOtg758sZ3lpyua2q+8qv9k13W7fn3z4fqZs66pPcBbne2QPD
+fX11W958Sw2HczN/nyhYfJDG7RXPxi/oSu6XzSenS3cPpRsNuxq3PTqV8za2azL5
+3Y0Y7liKNzfyF+aAI0Y=
+=Yi5g
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/terpo
+
+==================================================================
